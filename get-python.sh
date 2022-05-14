@@ -1,3 +1,6 @@
+apt update
+apt upgrade
+
 apt install software-properties-common -y
 add-apt-repository ppa:deadsnakes/ppa
 apt install python3.10 python3.10-distutils python3-pip
